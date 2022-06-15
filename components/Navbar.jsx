@@ -39,7 +39,7 @@ const Navbar = () => {
                     </Link>
                 </ul>
                 <div className='md:hidden'>
-                    <AiOutlineMenu onClick={handleNav} size={25} />
+                    <AiOutlineMenu href='' onClick={handleNav} size={25} />
                 </div>
             </div>
             </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
                             <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                             <div className='flex items-center justify-between w-full my-4 sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn />
+                                    <FaLinkedinIn href='https://www.linkedin.com/in/sudipta-adhikary-joy/' />
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub />
