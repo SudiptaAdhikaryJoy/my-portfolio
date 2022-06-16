@@ -14,11 +14,21 @@ const ajker = () => {
         </div>
       </div>
 
-      <div className='max-w-[1240px] mx-auto p-2'>
-        <div>
-          <p>Project</p>
+      <div className='max-w-[1240px] mx-auto p-2 md:grid-cols-5 gap-8 pt-8'>
+        <div className='col-span-4'>
+          <h4>Project</h4>
           <h2>Overview</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam tenetur, totam laboriosam ipsum atque iure animi aspernatur. Molestiae, repudiandae?</p>
+          <button className='px-8 py-2 mt-4 mr-9'>Demo</button>
+          <button className='px-8 py-2 mt-4'>Code</button>
+        </div>
+        <div className='col-span-4 md:col-span-1 shadow-xl rounded-xl shadow-gray-400 p-4'>
+          <div className='p-2'>
+            <p className='text-center font-bold pb-2'>Technologies</p>
+          </div>
+          <div>
+
+          </div>
         </div>
       </div>
 
