@@ -8,7 +8,7 @@ import ProjectItem from './ProjectItem'
 
 function Projects() {
   return (
-    <div className='w-full'>
+    <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Build</h2>
@@ -17,17 +17,17 @@ function Projects() {
                 <ProjectItem 
                     title='Ajker Barta'
                     backgroundImg = {propertyOne}
-                    projectUrl = '/property'
+                    projectUrl = '/ajker'
                 />
                 <ProjectItem 
                     title='Express Travel'
                     backgroundImg = {propertyTwo}
-                    projectUrl = '/property'
+                    projectUrl = '/express'
                 />
                 <ProjectItem 
                     title='Mercury Car Services'
                     backgroundImg = {propertyThree}
-                    projectUrl = '/property'
+                    projectUrl = '/mercury'
                 />
 
             </div>

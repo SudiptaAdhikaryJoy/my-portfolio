@@ -1,10 +1,12 @@
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
 const Contact = () => {
     return (
-        <div className='w-full lg:h-screen'>
+        <div id='contact' className='w-full lg:h-screen'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
                 <h2 className='py-4'>Get In Touch</h2>
@@ -17,8 +19,8 @@ const Contact = () => {
                                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=620&q=40" alt="" />
                             </div>
                             <div>
-                                <h2 className='py-2'>Name Here</h2>
-                                <p className=''>Full Stack Engineer</p>
+                                <h2 className='py-3 uppercase'>Sudipta Adhikary Joy</h2>
+                                <p className='font-bold'>Full Stack Engineer</p>
                                 <p className='py-4'>I am a Full Stack Engineer. Contact me and lets talk</p>
                             </div>
                         <div>
@@ -75,6 +77,13 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                </div>
+                <div className='flex justify-center'>
+                    <Link href='/'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 mt-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <HiOutlineChevronDoubleUp size={30} />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
